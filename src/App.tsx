@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rocket, GraduationCap, Users, Star, Clock, Globe, Gift, Award, CheckCircle, ArrowRight } from 'lucide-react'
+import { Rocket, GraduationCap, Users, Star, Clock, Globe, Gift, Award, CheckCircle, ArrowRight, Target, Calendar, TrendingUp, DollarSign, Package, Briefcase, Trophy, Zap, MessageCircle, Code, Heart } from 'lucide-react'
 
 function App() {
   return (
@@ -154,6 +154,291 @@ function App() {
                   <span>Exclusive starter kit</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Your Mission as a Campus OG */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Your Mission as a Campus OG</h3>
+              <p className="text-xl text-gray-600">Drive no-code adoption and build thriving communities on your campus</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Event Organization */}
+              <div className="backdrop-blur-md bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-200/30 rounded-2xl p-8 shadow-lg">
+                <div className="flex items-center mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mr-4">
+                    <Calendar className="w-6 h-6 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-800">Event Organization</h4>
+                </div>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <Target className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
+                    <span>Host workshops & tutorials</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Zap className="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0" />
+                    <span>Organize mini hackathons</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Trophy className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
+                    <span>Run full hackathons</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Star className="w-5 h-5 text-purple-500 mr-3 flex-shrink-0" />
+                    <span>Create innovative formats</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Community Growth */}
+              <div className="backdrop-blur-md bg-gradient-to-br from-cyan-500/10 to-teal-500/10 border border-cyan-200/30 rounded-2xl p-8 shadow-lg">
+                <div className="flex items-center mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl flex items-center justify-center mr-4">
+                    <TrendingUp className="w-6 h-6 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-800">Community Growth</h4>
+                </div>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <Users className="w-5 h-5 text-cyan-500 mr-3 flex-shrink-0" />
+                    <span>Onboard new users</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Globe className="w-5 h-5 text-teal-500 mr-3 flex-shrink-0" />
+                    <span>Build campus networks</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Code className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                    <span>Create engaging content</span>
+                  </li>
+                  <li className="flex items-center">
+                    <MessageCircle className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
+                    <span>Foster global connections</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Key Success Metrics */}
+              <div className="backdrop-blur-md bg-gradient-to-br from-teal-500/10 to-green-500/10 border border-teal-200/30 rounded-2xl p-8 shadow-lg">
+                <div className="flex items-center mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-green-500 rounded-xl flex items-center justify-center mr-4">
+                    <Target className="w-6 h-6 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-800">Success Metrics</h4>
+                </div>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <Gift className="w-5 h-5 text-teal-500 mr-3 flex-shrink-0" />
+                    <span>Referral code usage</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Calendar className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                    <span>Event hosting frequency</span>
+                  </li>
+                  <li className="flex items-center">
+                    <MessageCircle className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
+                    <span>Discord participation</span>
+                  </li>
+                  <li className="flex items-center">
+                    <Heart className="w-5 h-5 text-red-500 mr-3 flex-shrink-0" />
+                    <span>Community engagement</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Perks & Benefits */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Perks & Benefits</h3>
+            <p className="text-xl text-gray-600">Everything you need to succeed as a Campus OG</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Financial Support */}
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Financial Support</h4>
+              </div>
+              <ul className="space-y-3 text-gray-700 text-sm">
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                  <span>Event reimbursements</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                  <span>Referral earnings</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                  <span>Exclusive discount codes</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Starter Kit */}
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Package className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Starter Kit</h4>
+              </div>
+              <ul className="space-y-3 text-gray-700 text-sm">
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
+                  <span>Branded t-shirt</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
+                  <span>Campus OG cap</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
+                  <span>Sticker pack</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
+                  <span>Event materials</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Professional Growth */}
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Professional Growth</h4>
+              </div>
+              <ul className="space-y-3 text-gray-700 text-sm">
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-purple-500 mr-2 flex-shrink-0" />
+                  <span>Program certification</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-purple-500 mr-2 flex-shrink-0" />
+                  <span>Recommendation letters</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-purple-500 mr-2 flex-shrink-0" />
+                  <span>Early access features</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Role Advancement */}
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Briefcase className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Role Advancement</h4>
+              </div>
+              <ul className="space-y-3 text-gray-700 text-sm">
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" />
+                  <span>Partner internships</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" />
+                  <span>Expert role opportunities</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" />
+                  <span>Advanced benefits</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Growth Journey */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="backdrop-blur-md bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-white/30 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Growth Journey</h3>
+              <p className="text-xl text-gray-600">Your path to becoming a successful Campus OG</p>
+            </div>
+
+            {/* Program Timeline */}
+            <div className="mb-12">
+              <h4 className="text-2xl font-bold text-gray-800 mb-8 text-center">Program Timeline</h4>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Rocket className="w-10 h-10 text-white" />
+                  </div>
+                  <h5 className="text-xl font-semibold text-gray-800 mb-3">Launch</h5>
+                  <p className="text-gray-600 mb-2 font-medium">Month 1</p>
+                  <p className="text-gray-600 text-sm">Get started with your starter kit, join the community, and plan your first event</p>
+                </div>
+
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <TrendingUp className="w-10 h-10 text-white" />
+                  </div>
+                  <h5 className="text-xl font-semibold text-gray-800 mb-3">Growth</h5>
+                  <p className="text-gray-600 mb-2 font-medium">Month 2-3</p>
+                  <p className="text-gray-600 text-sm">Host events, grow your campus community, and track your success metrics</p>
+                </div>
+
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Trophy className="w-10 h-10 text-white" />
+                  </div>
+                  <h5 className="text-xl font-semibold text-gray-800 mb-3">Evaluation</h5>
+                  <p className="text-gray-600 mb-2 font-medium">Month 3+</p>
+                  <p className="text-gray-600 text-sm">Review performance, receive certification, and advance to Fellow status</p>
+                </div>
+              </div>
+            </div>
+
+            {/* What Makes a Successful Campus OG */}
+            <div>
+              <h4 className="text-2xl font-bold text-gray-800 mb-8 text-center">What Makes a Successful Campus OG</h4>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 text-center">
+                  <div className="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Zap className="w-8 h-8 text-white" />
+                  </div>
+                  <h5 className="text-lg font-semibold text-gray-800 mb-3">Initiative</h5>
+                  <p className="text-gray-600 text-sm">Take ownership of your campus community and proactively organize events and activities</p>
+                </div>
+
+                <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 text-center">
+                  <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Heart className="w-8 h-8 text-white" />
+                  </div>
+                  <h5 className="text-lg font-semibold text-gray-800 mb-3">Community Impact</h5>
+                  <p className="text-gray-600 text-sm">Create meaningful connections and help fellow students discover the power of no-code</p>
+                </div>
+
+                <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 text-center">
+                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Star className="w-8 h-8 text-white" />
+                  </div>
+                  <h5 className="text-lg font-semibold text-gray-800 mb-3">Builder Success</h5>
+                  <p className="text-gray-600 text-sm">Help students create amazing projects and achieve their goals with ChatAndBuild</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

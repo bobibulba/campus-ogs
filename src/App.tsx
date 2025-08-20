@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rocket, GraduationCap, Users, Star, Clock, Globe, Gift, Award, CheckCircle, ArrowRight, Target, Calendar, TrendingUp, DollarSign, Package, Briefcase, Trophy, Zap, MessageCircle, Code, Heart } from 'lucide-react'
+import { Rocket, GraduationCap, Users, Star, Clock, Globe, Gift, Award, CheckCircle, ArrowRight, Target, Calendar, TrendingUp, DollarSign, Package, Briefcase, Trophy, Zap, MessageCircle, Code, Heart, BookOpen, Headphones, Play, Hash, Mail, Phone, Send, ExternalLink } from 'lucide-react'
 
 function App() {
   return (
@@ -22,9 +22,15 @@ function App() {
                 </div>
                 <span className="text-xl font-semibold text-gray-800">ChatAndBuild</span>
               </div>
-              <button className="backdrop-blur-md bg-blue-500/20 hover:bg-blue-500/30 text-blue-700 font-medium px-6 py-2 rounded-xl border border-blue-200/50 transition-all duration-300 hover:scale-105">
+              <a 
+                href="https://forms.gle/gZWPU4H6FcQPoBXN7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="backdrop-blur-md bg-blue-500/20 hover:bg-blue-500/30 text-blue-700 font-medium px-6 py-2 rounded-xl border border-blue-200/50 transition-all duration-300 hover:scale-105 flex items-center"
+              >
                 Apply Now
-              </button>
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
             </div>
           </div>
         </nav>
@@ -37,7 +43,7 @@ function App() {
           <div className="backdrop-blur-md bg-blue-500/10 border border-blue-200/30 rounded-2xl p-6 mb-12 shadow-lg">
             <div className="flex items-center justify-center mb-4">
               <Rocket className="w-8 h-8 text-blue-600 mr-3" />
-              <h1 className="text-2xl md:text-3xl font-bold text-blue-800">Ready to lead the no-code revolution at your university?</h1>
+              <h1 className="text-2xl md:text-3xl font-bold text-blue-800">🚀 Ready to lead the no-code revolution at your university?</h1>
             </div>
             <p className="text-lg text-blue-700 leading-relaxed">
               Join Campus OGs and become the first cohort of student builders bringing ChatAndBuild to campuses worldwide.
@@ -67,9 +73,9 @@ function App() {
                 </p>
               </div>
               <div className="flex items-center justify-center space-x-4 text-lg font-medium">
-                <span className="backdrop-blur-md bg-blue-500/10 text-blue-700 px-4 py-2 rounded-xl border border-blue-200/30">🎓 Campus OGs</span>
+                <span className="backdrop-blur-md bg-blue-500/10 text-blue-700 px-4 py-2 rounded-xl border border-blue-200/30">Campus OGs</span>
                 <ArrowRight className="w-5 h-5 text-gray-500" />
-                <span className="backdrop-blur-md bg-yellow-500/10 text-yellow-700 px-4 py-2 rounded-xl border border-yellow-200/30">🌟 Fellow</span>
+                <span className="backdrop-blur-md bg-yellow-500/10 text-yellow-700 px-4 py-2 rounded-xl border border-yellow-200/30">Fellow</span>
               </div>
             </div>
           </div>
@@ -444,6 +450,232 @@ function App() {
         </div>
       </section>
 
+      {/* Resources & Support */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Resources & Support</h3>
+            <p className="text-xl text-gray-600">Everything you need to succeed in your Campus OG journey</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Event Planning Guides */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <BookOpen className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Event Planning Guides</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center">Step-by-step guides for organizing workshops, hackathons, and community events that drive engagement</p>
+            </div>
+
+            {/* Community Support */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Community Support</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center">Connect with fellow Campus OGs, share experiences, and get advice from successful ambassadors</p>
+            </div>
+
+            {/* Training Materials */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Play className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Training Materials</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center">Access video tutorials, webinars, and training materials to enhance your no-code skills and leadership abilities</p>
+            </div>
+
+            {/* Exclusive Discord Channel */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-orange-500/10 to-red-500/10 border border-orange-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Hash className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Exclusive Discord Channel</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center mb-4">Private channels for Campus OGs to collaborate, ask questions, and receive real-time support from the team</p>
+              <div className="text-center">
+                <a 
+                  href="https://discordapp.com/channels/1348942357692682260/1351603633007099984"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium text-sm"
+                >
+                  Join Discord Channel
+                  <ExternalLink className="w-4 h-4 ml-1" />
+                </a>
+              </div>
+            </div>
+
+            {/* Resource Library */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-teal-500/10 to-cyan-500/10 border border-teal-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <BookOpen className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Resource Library</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center">Comprehensive collection of templates, presentation slides, marketing materials, and best practices</p>
+            </div>
+
+            {/* Flexible Support */}
+            <div className="backdrop-blur-md bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border border-yellow-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Headphones className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-lg font-bold text-gray-800">Flexible Support</h4>
+              </div>
+              <p className="text-gray-600 text-sm text-center">Personalized support that adapts to your schedule, campus culture, and unique community needs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Application Process */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="backdrop-blur-md bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-200/30 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Application Process</h3>
+              <p className="text-xl text-gray-600">Simple steps to join the Campus OGs program</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              {/* Step 1 */}
+              <div className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">1</span>
+                </div>
+                <h4 className="text-xl font-semibold text-gray-800 mb-3">Complete Application Form</h4>
+                <p className="text-gray-600 text-sm">Fill out our comprehensive application form with your background, interests, and campus details</p>
+              </div>
+
+              {/* Step 2 */}
+              <div className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">2</span>
+                </div>
+                <h4 className="text-xl font-semibold text-gray-800 mb-3">Join Scheduled Call</h4>
+                <p className="text-gray-600 text-sm">Participate in a brief interview call to discuss your goals and learn more about the program</p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">3</span>
+                </div>
+                <h4 className="text-xl font-semibold text-gray-800 mb-3">Receive Materials</h4>
+                <p className="text-gray-600 text-sm">Get your starter kit, access to resources, and begin your Campus OG journey</p>
+              </div>
+            </div>
+
+            {/* Application Link */}
+            <div className="text-center mb-8">
+              <a 
+                href="https://forms.gle/gZWPU4H6FcQPoBXN7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center backdrop-blur-md bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg"
+              >
+                <Send className="w-6 h-6 mr-3" />
+                Apply Today
+                <ExternalLink className="w-5 h-5 ml-2" />
+              </a>
+            </div>
+
+            {/* Rolling Reviews Note */}
+            <div className="backdrop-blur-md bg-yellow-500/10 border border-yellow-200/30 rounded-2xl p-6 text-center">
+              <div className="flex items-center justify-center mb-3">
+                <Clock className="w-6 h-6 text-yellow-600 mr-2" />
+                <h5 className="text-lg font-semibold text-yellow-800">Rolling Application Reviews</h5>
+              </div>
+              <p className="text-yellow-700">Applications are reviewed on a rolling basis. Apply early to secure your spot in the next cohort!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Information */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Contact Information</h3>
+              <p className="text-xl text-gray-600">Get in touch with our Campus OGs program team</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Discord Support */}
+              <div className="backdrop-blur-md bg-gradient-to-br from-purple-500/10 to-blue-500/10 border border-purple-200/30 rounded-2xl p-8 shadow-lg">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Hash className="w-8 h-8 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-800">Discord Support</h4>
+                </div>
+                <p className="text-gray-600 text-center mb-4">Join our Discord community for real-time support, collaboration, and updates from the Campus OGs team.</p>
+                <div className="text-center">
+                  <a 
+                    href="https://discordapp.com/channels/1348942357692682260/1351603633007099984"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
+                  >
+                    Join Discord
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </a>
+                </div>
+              </div>
+
+              {/* Email Support */}
+              <div className="backdrop-blur-md bg-gradient-to-br from-green-500/10 to-teal-500/10 border border-green-200/30 rounded-2xl p-8 shadow-lg">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Mail className="w-8 h-8 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-800">Email Support</h4>
+                </div>
+                <p className="text-gray-600 text-center mb-4">Reach out to our team directly for program questions, applications, and personalized support.</p>
+                <div className="space-y-2 text-center">
+                  <div>
+                    <a 
+                      href="mailto:bobi@chatandbuild.com"
+                      className="text-green-600 hover:text-green-700 font-medium"
+                    >
+                      bobi@chatandbuild.com
+                    </a>
+                  </div>
+                  <div>
+                    <a 
+                      href="mailto:niall@chatandbuild.com"
+                      className="text-green-600 hover:text-green-700 font-medium"
+                    >
+                      niall@chatandbuild.com
+                    </a>
+                  </div>
+                  <div>
+                    <a 
+                      href="mailto:eric@chatandbuild.com"
+                      className="text-green-600 hover:text-green-700 font-medium"
+                    >
+                      eric@chatandbuild.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Who Should Apply */}
       <section className="relative z-10 px-6 py-16">
         <div className="max-w-4xl mx-auto">
@@ -482,16 +714,41 @@ function App() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Final CTA Section */}
       <section className="relative z-10 px-6 py-16">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-xl">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Ready to Get Started?</h3>
-            <p className="text-xl text-gray-600 mb-8">Join the first cohort of Campus OGs and help shape the future of no-code education</p>
-            <button className="backdrop-blur-md bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg">
-              Apply for Campus OGs Program
-            </button>
-            <p className="text-sm text-gray-500 mt-4">Applications are reviewed on a rolling basis</p>
+          <div className="backdrop-blur-md bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="mb-8">
+              <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Rocket className="w-12 h-12 text-white" />
+              </div>
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Ready to become a Campus OG?</h3>
+              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                Join our global community of student builders shaping the future of no-code development. 
+                <a 
+                  href="https://forms.gle/gZWPU4H6FcQPoBXN7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 font-semibold underline decoration-2 underline-offset-2"
+                >
+                  Apply today
+                </a> and start your journey!
+              </p>
+            </div>
+            
+            <div className="space-y-4">
+              <a 
+                href="https://forms.gle/gZWPU4H6FcQPoBXN7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center backdrop-blur-md bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold px-10 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg"
+              >
+                <Send className="w-6 h-6 mr-3" />
+                Apply for Campus OGs Program
+                <ExternalLink className="w-5 h-5 ml-2" />
+              </a>
+              <p className="text-sm text-gray-500">Join the first cohort of Campus OGs and make history!</p>
+            </div>
           </div>
         </div>
       </section>

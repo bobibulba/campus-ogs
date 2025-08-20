@@ -43,10 +43,10 @@ function App() {
           <div className="backdrop-blur-md bg-blue-500/10 border border-blue-200/30 rounded-2xl p-6 mb-12 shadow-lg">
             <div className="flex items-center justify-center mb-4">
               <Rocket className="w-8 h-8 text-blue-600 mr-3" />
-              <h1 className="text-2xl md:text-3xl font-bold text-blue-800">🚀 Ready to lead the no-code revolution at your university?</h1>
+              <h1 className="text-2xl md:text-3xl font-bold text-blue-800">Ready to lead the no-code revolution at your university?</h1>
             </div>
             <p className="text-lg text-blue-700 leading-relaxed">
-              Join Campus OGs and become the first cohort of student builders bringing ChatAndBuild to campuses worldwide.
+              Join Campus OGs and become one of student builders bringing ChatAndBuild to campuses worldwide.
             </p>
           </div>
 
@@ -105,7 +105,7 @@ function App() {
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
-                  <span>Work around your classes</span>
+                  <span>Quality over quantity</span>
                 </li>
               </ul>
             </div>
@@ -157,7 +157,7 @@ function App() {
                 </li>
                 <li className="flex items-center">
                   <Gift className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
-                  <span>Exclusive starter kit</span>
+                  <span>Exclusive starter kit + global Discord channel</span>
                 </li>
               </ul>
             </div>
@@ -246,7 +246,7 @@ function App() {
                   </li>
                   <li className="flex items-center">
                     <Calendar className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
-                    <span>Event hosting frequency</span>
+                    <span>Event hosting frequency and delivery</span>
                   </li>
                   <li className="flex items-center">
                     <MessageCircle className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
@@ -307,15 +307,15 @@ function App() {
               <ul className="space-y-3 text-gray-700 text-sm">
                 <li className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
-                  <span>Branded t-shirt</span>
+                  <span>ChatAndBuild T-shirt</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
-                  <span>Campus OG cap</span>
+                  <span>ChatAndBuild cap</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
-                  <span>Sticker pack</span>
+                  <span>ChatAndBuild sticker pack</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-blue-500 mr-2 flex-shrink-0" />
@@ -344,6 +344,10 @@ function App() {
                 <li className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-purple-500 mr-2 flex-shrink-0" />
                   <span>Early access features</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="w-4 h-4 text-purple-500 mr-2 flex-shrink-0" />
+                  <span>Global network access</span>
                 </li>
               </ul>
             </div>
@@ -489,7 +493,7 @@ function App() {
                 </div>
                 <h4 className="text-lg font-bold text-gray-800">Training Materials</h4>
               </div>
-              <p className="text-gray-600 text-sm text-center">Access video tutorials, webinars, and training materials to enhance your no-code skills and leadership abilities</p>
+              <p className="text-gray-600 text-sm text-center">On-demand training for assistance with ChatAndBuild features</p>
             </div>
 
             {/* Exclusive Discord Channel */}
